@@ -30,7 +30,7 @@ body {
 	display: inline-block;
 	width: 200px;
 	margin-bottom: 30px;
-	margin-top: 10px;
+	margin-top: 30px;
 }
 .left-header span{
 	color: #ccc;
@@ -58,6 +58,12 @@ body {
 	color: #fff;
 	background-color: #7D7D7D;
 }
+.left-clock{
+	height: auto;
+	background-color: #ccc;
+	border-radius: 30%;
+	margin-top: 100px;
+}
 .right_content{
 	width: 80%;
 	margin: 100px auto;
@@ -72,6 +78,7 @@ body {
 	color: #666;
 	font-size: 16px;
 	clear: both;
+	padding-top: 20px;
 }
 .link_block{
 	width: 270px;
@@ -139,5 +146,5 @@ body {
 }
 .content_block{
 	float: left;
-	padding: 10px;
+	padding: 0px 10px;
 }

@@ -16,16 +16,20 @@
 			</div>
 			<div class="left-content">
 				<ul>
-					<a href="#01"><li>PC端地址&nbsp;&nbsp;&gt;&gt;</li></a>
-					<a href="#02"><li>移动端地址&nbsp;&nbsp;&gt;&gt;</li></a>
-					<a href="#0"><li>云平台&nbsp;&nbsp;&gt;&gt;</li></a>
-					<a href="#03"><li>旧版地址&nbsp;&nbsp;&gt;&gt;</li></a>
-					<a href="#04"><li>系统环境&nbsp;&nbsp;&gt;&gt;</li></a>
+					<a href="javascript:;" onclick="a_click('one')"><li>PC端地址&nbsp;&nbsp;&gt;&gt;</li></a>
+					<a href="javascript:;" onclick="a_click('two')"><li>移动端地址&nbsp;&nbsp;&gt;&gt;</li></a>
+					<a href="javascript:;" onclick="a_click('three')"><li>云平台相关&nbsp;&nbsp;&gt;&gt;</li></a>
+					<a href="javascript:;" onclick="a_click('four')"><li>旧版地址&nbsp;&nbsp;&gt;&gt;</li></a>
+					<a href="javascript:;" onclick="a_click('five')"><li>系统环境&nbsp;&nbsp;&gt;&gt;</li></a>
+					<a href="javascript:;" onclick="a_click('all')"><li>所有地址&nbsp;&nbsp;&gt;&gt;</li></a>
 				</ul>
+			</div>
+			<div class="left-clock">
+				<div id="myclock"></div>
 			</div>
 		</div>
 		<div class="right">
-			<div class="right_content" id="common"><!--onestart-->
+			<div class="right_content" id="one"><!--onestart-->
 				<div class="content_block">
 					<h1>PC端网址</h1>
 					<div class="link_block">
@@ -94,7 +98,7 @@
 					</div>
 				</div>
 			</div><!--oneend-->
-			<div class="right_content" id=""><!--twostart-->
+			<div class="right_content" id="two"><!--twostart-->
 				<div class="content_block">
 					<h1>移动端网址</h1>
 					<div class="link_block">
@@ -261,6 +265,75 @@
 			</div><!--twoend-->
 			<div class="right_content" id="three"><!--threestart-->
 				<div class="content_block">
+					<h1>云平台相关</h1>
+					<div class="link_block">
+						<a href="http://113.108.173.185/" title="http://113.108.173.185/" target="_blank">
+							<span class="link_icon"></span>
+							<span class="linke_title">云平台网站首页</span>
+						</a>
+						<div class="link_body">广州健康通</div>
+						<!-- <div class="link_footer color_38b7ea">未知</div> -->
+					</div>
+					<div class="link_block">
+						<a href="http://113.108.173.185:8090/cts/jsp/pubmng/login.jsp" title="http://113.108.173.185:8090/cts/jsp/pubmng/login.jsp" target="_blank">
+							<span class="link_icon"></span>
+							<span class="linke_title">云平台后台UI管理</span>
+						</a>
+						<div class="link_body">广州健康通</div>
+						<!-- <div class="link_footer color_38b7ea">未知</div> -->
+					</div><br>
+					<div class="link_block">
+						<a href="http://113.108.173.186/v4_common.xhtml?goto=login" title="http://113.108.173.186/v4_common.xhtml?goto=login" target="_blank">
+							<span class="link_icon"></span>
+							<span class="linke_title">新版广州健康通(登录)</span>
+						</a>
+						<div class="link_body">广州健康通</div>
+						<!-- <div class="link_footer color_38b7ea">未知</div> -->
+					</div>
+					<div class="link_block">
+						<a href="http://113.108.173.186/v4_common.xhtml?goto=index" title="http://113.108.173.186/v4_common.xhtml?goto=index" target="_blank">
+							<span class="link_icon"></span>
+							<span class="linke_title">新版广州健康通(预约挂号)</span>
+						</a>
+						<div class="link_body">广州健康通</div>
+						<!-- <div class="link_footer color_38b7ea">未知</div> -->
+					</div>
+					<div class="link_block">
+						<a href="http://113.108.173.186/v4_common.xhtml?goto=index&IS_TODAY=1" title="http://113.108.173.186/v4_common.xhtml?goto=index&IS_TODAY=1" target="_blank">
+							<span class="link_icon"></span>
+							<span class="linke_title">新版广州健康通(当天挂号)</span>
+						</a>
+						<div class="link_body">广州健康通</div>
+						<!-- <div class="link_footer color_38b7ea">未知</div> -->
+					</div>
+					<div class="link_block">
+						<a href="http://113.108.173.186/v4_common.xhtml?goto=usr" title="http://113.108.173.186/v4_common.xhtml?goto=usr" target="_blank">
+							<span class="link_icon"></span>
+							<span class="linke_title">新版广州健康通(我的资料)</span>
+						</a>
+						<div class="link_body">广州健康通</div>
+						<!-- <div class="link_footer color_38b7ea">未知</div> -->
+					</div>
+					<div class="link_block">
+						<a href="http://113.108.173.186/v4_common.xhtml?goto=order" title="http://113.108.173.186/v4_common.xhtml?goto=order" target="_blank">
+							<span class="link_icon"></span>
+							<span class="linke_title">新版广州健康通(我的订单)</span>
+						</a>
+						<div class="link_body">广州健康通</div>
+						<!-- <div class="link_footer color_38b7ea">未知</div> -->
+					</div>
+					<div class="link_block">
+						<a href="http://113.108.173.186/v4_common.xhtml?goto=opinion" title="http://113.108.173.186/v4_common.xhtml?goto=opinion" target="_blank">
+							<span class="link_icon"></span>
+							<span class="linke_title">新版广州健康通(意见反馈)</span>
+						</a>
+						<div class="link_body">广州健康通</div>
+						<!-- <div class="link_footer color_38b7ea">未知</div> -->
+					</div>
+				</div>
+			</div><!--threeend-->
+			<div class="right_content" id="four"><!--fourstart-->
+				<div class="content_block">
 					<h1>旧版地址-正式环境</h1>
 					<div class="link_block">
 						<a href="http://wap.guahao.gov.cn/common.xhtml?goto=login.xhtml" title="http://wap.guahao.gov.cn/common.xhtml?goto=login.xhtml" target="_blank">
@@ -392,14 +465,25 @@
 						<div class="link_footer color_FF3030">测试环境</div>
 					</div>
 				</div>
-			</div><!--threeend-->
-			<div class="right_content" id="three"><!--threestart-->
+			</div><!--fourend-->
+			<div class="right_content" id="five"><!--fivestart-->
 				<div class="content_block">
 					<h1>系统环境</h1>
+					<div class="link_block">
+						<a href="http://wx.guahao.gov.cn/common.xhtml?goto=inline_info.xhtml" title="http://wx.guahao.gov.cn/common.xhtml?goto=inline_info.xhtml" target="_blank">
+							<span class="link_icon"></span>
+							<span class="linke_title">旧版广州健康通(排队候诊)</span>
+						</a>
+						<div class="link_body">广州健康通</div>
+						<div class="link_footer color_FF3030">测试环境</div>
+					</div>
 				</div>
-			</div>
+			</div><!--fiveend-->
 		</div>
 	</div>
 </body>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.thooCLock.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
 </html>

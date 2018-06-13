@@ -89,7 +89,7 @@ body {
 	background-color: #fff;
 	border-radius: 5px;
 	box-shadow: 0px 2px 0px rgba(170,170,170,0.1);
-	cursor: pointer;
+	opacity: .8;
 }
 .link_block a{
 	overflow: hidden;
@@ -103,6 +103,7 @@ body {
 }
 .link_block:hover{
 	box-shadow: 8px 8px 8px 8px rgba(170,170,170,0.1);
+	opacity: 1;
 }
 .link_block .link_icon{
 	width: 36px;

@@ -1,9 +1,10 @@
 $(document).ready(function(){
-	getDate();
-	$("#myclock").thooClock();
+	// getDate();
+	setInterval("getDate()",1000)
+	//$("#myclock").thooClock();
 });
 function getDate(){
-	var date = new Date;
+	var date = new Date();
 	var year = date.getFullYear();
 	var month = date.getMonth()+1;
 	month = (month<10?'0'+month:month);
@@ -12,7 +13,7 @@ function getDate(){
 	var day = date.getDay();
 	var week = ["星期日","星期一","星期二","星期三","星期四","星期五","星期六"]
 	var todayweek = week[day];
-	var mydate = (year.toString()+"."+month.toString()+"."+nowdate.toString()+" "+todayweek);
+	var mydate = (year.toString()+"年"+month.toString()+"月"+nowdate.toString()+"日<br>"+todayweek+"<br>"+date.toLocaleTimeString());
 	console.log(mydate)
 	document.getElementById('nowtime').innerHTML = mydate
 

@@ -22,7 +22,7 @@
                 y;
 
        defaults = {
-                size:250,
+                size:200,
                 dialColor:'#000000',
                 dialBackgroundColor:'transparent',
                 secondHandColor:'#F3A829',

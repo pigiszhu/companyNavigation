@@ -1,7 +1,5 @@
 $(document).ready(function(){
-	// getDate();
-	setInterval("getDate()",1000)
-	//$("#myclock").thooClock();
+	// setInterval("getDate()",1000)
 });
 function getDate(){
 	var date = new Date();
